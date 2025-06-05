@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurantsystem3.FirstLoginController">
+   <children>
+      <AnchorPane layoutX="37.0" layoutY="35.0" prefHeight="329.0" prefWidth="526.0">
+         <children>
+            <Label fx:id="lblWhoAreYou" layoutX="205.0" layoutY="53.0" prefHeight="27.0" prefWidth="119.0" text="Who are you?" textFill="#30c51d">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font></Label>
+            <Label fx:id="lblWelcomeToRestaurantSystem" layoutX="93.0" layoutY="-6.0" prefHeight="40.0" prefWidth="343.0" text="Welcome To Restaurant System">
+               <font>
+                  <Font name="Arial Bold" size="22.0" />
+               </font></Label>
+            <Button fx:id="btnManager" layoutX="218.0" layoutY="102.0" mnemonicParsing="false" onAction="#btnManagerOnAction" prefHeight="35.0" prefWidth="94.0" text="Manager" textFill="#1b1414" />
+            <Button fx:id="btnWaiter" layoutX="14.0" layoutY="187.0" mnemonicParsing="false" onAction="#btnWaiterOnAction" text="Waiter" textFill="#1b1414" />
+            <Button fx:id="btnChef" layoutX="235.0" layoutY="187.0" mnemonicParsing="false" onAction="#btnChefOnAction" text="Chef" textFill="#1b1414" />
+            <Button fx:id="btnCashier" layoutX="429.0" layoutY="187.0" mnemonicParsing="false" onAction="#btnCashierOnAction" text="Cashier" textFill="#1b1414" />
+            <Button fx:id="btnnoneofabove" layoutX="198.0" layoutY="287.0" mnemonicParsing="false" onAction="#btnnonofaboveOnAction" text="none of above" textFill="#1b1414" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

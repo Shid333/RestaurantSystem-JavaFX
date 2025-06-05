@@ -1,0 +1,5 @@
+*.java linguist-detectable=true
+*.fxml linguist-detectable=true
+*.xml linguist-detectable=true
+*.md linguist-detectable=false
+/target/ linguist-vendored

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurantsystem3.ChefMenu">
+   <children>
+      <AnchorPane layoutX="102.0" layoutY="28.0" prefHeight="263.0" prefWidth="395.0">
+         <children>
+            <Label fx:id="lblChefMenu" layoutX="154.0" layoutY="14.0" prefHeight="24.0" prefWidth="87.0" text="Chef Menu" />
+            <Label fx:id="lblTableA" layoutX="50.0" layoutY="92.0" prefHeight="24.0" prefWidth="67.0" text="Table A:" />
+            <Label fx:id="lblTableB" layoutX="280.0" layoutY="92.0" prefHeight="24.0" prefWidth="61.0" text="Table B:" />
+            <Button fx:id="btnShowA" layoutX="7.0" layoutY="116.0" mnemonicParsing="false" onAction="#btnShowA" prefHeight="35.0" prefWidth="139.0" text="Show the Order" />
+            <Button fx:id="btnShowB" layoutX="248.0" layoutY="114.0" mnemonicParsing="false" onAction="#btnShowB" text="Show the Order" />
+            <Button fx:id="btnBack" layoutX="15.0" layoutY="219.0" mnemonicParsing="false" onAction="#btnBack" prefHeight="35.0" prefWidth="70.0" text="back" />
+            <Button fx:id="btnFirstPage" layoutX="234.0" layoutY="220.0" mnemonicParsing="false" onAction="#btnFirstPage" text="Back to First Page" />
+            <Label fx:id="lblStatusA" layoutX="24.0" layoutY="168.0" prefHeight="24.0" prefWidth="153.0" />
+            <Label fx:id="lblStatusB" layoutX="238.0" layoutY="168.0" prefHeight="24.0" prefWidth="153.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

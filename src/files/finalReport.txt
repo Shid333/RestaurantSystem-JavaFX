@@ -1,0 +1,57 @@
+
+Sandwich= 6
+Hamburger= 6
+Pizza= 6
+Water Bottle= 6
+Soda= 6
+Total Price= 1308000.0
+---
+Sandwich= 4
+Hamburger= 4
+Pizza= 4
+Water Bottle= 4
+Soda= 4
+Total Price= 872000.0
+---
+Sandwich= 8
+Hamburger= 8
+Pizza= 8
+Water Bottle= 8
+Soda= 8
+Total Price= 1744000.0
+---
+Sandwich= 9
+Hamburger= 9
+Pizza= 9
+Water Bottle= 99
+Soda= 9
+Total Price= 2682000.0
+---
+Sandwich= 5
+Hamburger= 5
+Pizza= 5
+Water Bottle= 5
+Soda= 5
+Total Price= 1090000.0
+---
+Sandwich= 7
+Hamburger= 7
+Pizza= 7
+Water Bottle= 7
+Soda= 7
+Total Price= 1526000.0
+---
+Sandwich= 12
+Hamburger= 12
+Pizza= 12
+Water Bottle= 12
+Soda= 12
+Total Price= 2616000.0
+---
+Sandwich= 6
+Hamburger= 6
+Pizza= 6
+Water Bottle= 6
+Soda= 6
+Total Price= 1308000.0
+---

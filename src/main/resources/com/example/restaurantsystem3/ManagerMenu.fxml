@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.restaurantsystem3.ManagerMenu">
+   <children>
+      <AnchorPane layoutX="111.0" layoutY="28.0" prefHeight="339.0" prefWidth="366.0">
+         <children>
+            <Label fx:id="lblManagerMenu" layoutX="129.0" layoutY="14.0" prefHeight="24.0" prefWidth="114.0" text="Manger Menu">
+               <font>
+                  <Font name="System Bold" size="16.66666603088379" />
+               </font></Label>
+            <Button fx:id="btnReport" layoutX="127.0" layoutY="77.0" mnemonicParsing="false" onAction="#btnReport" text="Go to Report" />
+            <Button fx:id="btnBack" layoutX="157.0" layoutY="223.0" mnemonicParsing="false" onAction="#btnBack" text="Back" />
+            <Button fx:id="btnBacKToFirstPage" layoutX="109.0" layoutY="281.0" mnemonicParsing="false" onAction="#btnBackToFirst" prefHeight="35.0" prefWidth="153.0" text="Back to First Page" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
